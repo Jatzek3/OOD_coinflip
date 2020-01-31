@@ -1,0 +1,35 @@
+Oobject Orientated Design part 1
+
+Jak najprościej jak to możliwe.
+Coin Flip
+USE Case description:
+Losowy gracz wybiera orzeł czy reszka. Drugi gracz dostaje drugą opcję. Moneta jest rzucana.
+Dobre zgadnięcie wygrywa.
+
+Triggers
+1. Losowy gracz wybiera stronę monety
+
+Actors
+1. Gracz który wybiera
+2. Gracz, który dostaje drugą opcje
+3. Moneta 
+4. Gra w rzut monetą
+
+Preconditions
+1. Dwóch graczy musi być dostepnych
+2. musi być moneta
+
+Goals.
+1. Jeden gracz wygrawa, a drugi przegrywa
+
+Not availabled
+1. Rzut monetą nie wyszedł, Alterantywy
+
+Steps of execution
+1. Gracz wybierający jest wybrany
+2. Gracz wybiera strone
+3. Drugi gracz dostaje drugą strone
+4. Moneta jest rzucona i wynik się okazuje
+5 Wygrywający i przegrywający są wybrani
+6. Oferta żeby spróbowac ponownie
+
