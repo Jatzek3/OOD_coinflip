@@ -1,11 +1,9 @@
 import random
-import coin_game
-import coin
 
 
 class Player:
 
-    def __init__(self, name, coin_option=None):             # We set up a player name and default value to None
+    def __init__(self, name, coin_option="Not yet chosen"): # We set up a player name and default value to None
         self. name = name                                   # Name will have to be inserted when the instance is created
         self.coin_option = coin_option                      # But coin option not since it defaults to None
         self.coin_values = ("Heads", "Tails")
@@ -27,17 +25,6 @@ class Player:
         return None
 
     def __str__(self):                                      # print for debug
-        return self.name +" "+ self.coin_option
+        return self.name + " " + self.coin_option
 
 
-player1 = Player("Mark")
-player2 = Player("Tom")
-player1.set_coin_option()
-player2.get_coin_option(player1)
-print(player1)
-print(player2)
-coin = coin.Coin()
-coin.get_coin_option()
-print(coin)
-player1.did_player_win(coin)
-player2.did_player_win(coin)

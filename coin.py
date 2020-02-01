@@ -3,7 +3,7 @@ import random
 
 class Coin:
 
-    def __init__(self, coin_option=None):       # We must initialize an instance of coin
+    def __init__(self, coin_option="Not yet chosen"):       # We must initialize an instance of coin
         self.coin_option = coin_option          # It will always have to have te side value(default None)
         self.coin_values = ("Heads", "Tails")   # The coin have 2 sides Heads and Tails
 
